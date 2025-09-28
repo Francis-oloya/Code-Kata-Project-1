@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+     margin-left: 140px;
+     margin-top: 50px;
+     color:  rgb(0, 0, 0);;
+     
+}
+#container{
+   
+   background-color: rgb(203, 202, 202);
+   max-width: 300px;
+   margin-top: 100px;
+   margin-left: 100px;
+   border: 10px solid white;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 3px 3px 10px;
+  align-self: center;
+  
+    
+}
+#submit{
+    
+}
+#Word{
+  background-color: transparent; 
+  border: black 1px solid; 
+    margin-right: 10px;
+}
+#Word:hover{
+  background-color: rgb(230, 228, 228); 
+  border: 0;
+   
+}  
+#btns{
+    display: flex;
+    margin-right: 5px;
+} 
+#reset{
+    
+  margin-left: 5px;
+} 
